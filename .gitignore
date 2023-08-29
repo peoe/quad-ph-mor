@@ -1,0 +1,85 @@
+*.py[cod]
+*.pstats
+*.vtu
+*.tar.gz
+*.log
+
+# Local directories
+env-quad-ph-mor
+pymor
+quad_ph_mor_old
+old_files
+quad_ph_mor/experiments/data
+
+# C extensions
+*.so
+src/pymor/discretizers/builtin/inplace.c
+src/pymor/discretizers/builtin/relations.c
+src/pymor/discretizers/builtin/grids/_unstructured.c
+src/pymordemos/minimal_cpp_demo/bindings_generated.cpp
+src/pymordemos/reduced_model.out
+src/pymordemos/results.out
+src/pymortests/reduced_model.out
+src/pymortests/results.out
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# other
+*~
+*.swp
+.spyderproject
+README.html
+README.txt
+.settings/
+.cache/
+.kateproject*
+venvs
+venv
+.idea
+
+# coverage.py output
+*,cover
+htmlcov/
+coverage.xml
+libpeerconnection.log
+.cache
+.coverage.*
+
+# pycharm
+.idea/
+
+Pipfile
+Pipfile.lock
+.hypothesis
+.vscode
+.ci/create_conda_env.log
+src/pymortests/testdata/check_results/test_check_check_results_miss*
